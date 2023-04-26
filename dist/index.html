@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230426183715">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__form form">
+					<div class="form__title">
+						<h1>Create an account</h1>
+					</div>
+					<div class="form__subtitle">
+						<p>We always keep your name and email adress private.</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="page__name name">
+					<div class="name__section">
+						<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="First name" class="input">
+						<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Last name" class="input">
+					</div>
+					<div class="page__email email">
+						<div class="email__section">
+							<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Display name" class="input">
+							<input autocomplete="off" type="email" name="form[]" data-error="Помилка" placeholder="Email address" class="input">
+						</div>
+					</div>
+					<div class="page__password password">
+						<div class="password__section">
+							<input autocomplete="off" type="password" name="form[]" data-error="Помилка" placeholder="Password" class="input">
+							<input autocomplete="off" type="password" name="form[]" data-error="Помилка" placeholder="Password Confirmation" class="input">
+						</div>
+					</div>
+					<div class="page__buyer buyer">
+						<div class="buyer__vote">
+							<div class="options">
+								<div class="options__item">
+									<input id="o_1" class="options__input" type="radio" value="1" name="option">
+									<label for="o_1" class="options__label"><span class="options__text">Join As a
+											Buyer</span></label>
+									<p>I am looking for a Name, Logo or Tagline for my business, brand or product.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__creative creative">
+						<div class="creative__vote">
+							<div class="options">
+								<div class="options__item">
+									<input id="o_1" class="options__input" type="radio" value="2" name="option">
+									<label for="o_1" class="options__label"><span class="options__text">Join As a Creative or
+											Marketplace Seller</span></label>
+									<p>I plan to submit name ideas, Logo designs or sell names in Domain Marketplace.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__promotion promotion">
+						<div class="promotion__check">
+							<div class="checkbox">
+								<input id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_1" class="checkbox__label"><span class="checkbox__text"></span>Allow Squadhelp to
+									send marketing/promotional offers from time to time</label>
+							</div>
+						</div>
+					</div>
+					<div class="page__create create">
+						<div class="create__buttons">
+							<button type="submit" class="button"><a href="" class="btn">Create account</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230426183715"></script>
+</body>
+
+</html>
